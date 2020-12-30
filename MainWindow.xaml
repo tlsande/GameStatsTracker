@@ -1,0 +1,14 @@
+﻿<Window x:Class="Game_Stats_Tracker.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Game_Stats_Tracker"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="testButton" Click="testButton_Click" Content="Button" HorizontalAlignment="Left" Margin="141,159,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="testTextBox" HorizontalAlignment="Left" Height="344" Margin="280,0,0,0" TextWrapping="Wrap" VerticalAlignment="Center" Width="479"/>
+
+    </Grid>
+</Window>
