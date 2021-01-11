@@ -45,9 +45,6 @@ namespace Game_Stats_Tracker
             //    testTextBox.Text += "   " + i.description + "\n";
             //}
 
-            //string testData2 = schemaForGame.getSchemaForGame(appData.getKey("steam"), "211420", "EN");
-            //testTextBox.Text += testData2;
-
             gameInfo testData2 = schemaForGame.getSchemaForGame(appData.getKey("steam"), "211420", "EN");
 
             testTextBox.Text += testData2.game.gameName + "\n";
@@ -62,11 +59,6 @@ namespace Game_Stats_Tracker
                 testTextBox.Text += "   " + i.iconURL + "\n";
                 testTextBox.Text += "   " + i.icongreyURL + "\n";
             }
-
-
-            //testTextBox.Text += System.IO.Path.Combine(Directory.GetCurrentDirectory(), "\\data\\keys.xml");
-            //testTextBox.Text += System.IO.Path.Combine(Directory.GetParent(AppDomain.CurrentDomain.BaseDirectory).Parent.FullName, @"data\", "keys.xml");
-            //testTextBox.Text += System.IO.Path.Combine(Directory.GetCurrentDirectory(), @"data\keys.xml");
         }
     }
 }
